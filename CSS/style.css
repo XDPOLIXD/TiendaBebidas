@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(../IMG/beverages-3105631_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px;
+    margin-bottom: 100px;
+    border-radius: 40px;
+    letter-spacing: 20px;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    color: #3a3b3b
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    min-height: calc(100vh - 60px);
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #333, #666);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.producto {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #5D6D7E;
+    border-radius: 50px;
+
+}
+
+.agregar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.agregar:hover {
+    background-color: #45a049;
+}
+
+#verCarrito {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+
+#verCarrito:hover {
+    background-color: #007A9B;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(223, 33, 33);
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+
+#carrito {
+    margin-bottom: 10px;
+}
+
+#vaciarCarrito {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#comprar {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#comprar:hover {
+    background-color: #007A9B;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="./IMG/carrito-de-compras.png">
+    <title>Tienda</title>
+</head>
+
+<body>
+    <h1>Productos</h1>
+    <div class="productos">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <h2>Pepsi</h2>
+            <p>Precio: $450</p>
+            <label for="cantidadProducto1">Cantidad:</label>
+            <input type="number" id="cantidadProducto1" min="1" value="1">
+            <button class="agregar" data-producto="Producto 1" data-precio="450">Agregar al Carrito</button>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+            <h2>Agua</h2>
+            <p>Precio: $350</p>
+            <label for="cantidadProducto2">Cantidad:</label>
+            <input type="number" id="cantidadProducto2" min="1" value="1">
+            <button class="agregar" data-producto="Producto 2" data-precio="350">Agregar al Carrito</button>
+        </div>
+
+        <!-- Agregar más productos aquí -->
+
+        <!-- Producto 3 -->
+        <div class="producto">
+            <h2>Chocolate</h2>
+            <p>Precio: $500</p>
+            <label for="cantidadProducto3">Cantidad:</label>
+            <input type="number" id="cantidadProducto3" min="1" value="1">
+            <button class="agregar" data-producto="Producto 3" data-precio="500">Agregar al Carrito</button>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="producto">
+            <h2>Galletas</h2>
+            <p>Precio: $300</p>
+            <label for="cantidadProducto4">Cantidad:</label>
+            <input type="number" id="cantidadProducto4" min="1" value="1">
+            <button class="agregar" data-producto="Producto 4" data-precio="300">Agregar al Carrito</button>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="producto">
+            <h2>Jugo</h2>
+            <p>Precio: $250</p>
+            <label for="cantidadProducto5">Cantidad:</label>
+            <input type="number" id="cantidadProducto5" min="1" value="1">
+            <button class="agregar" data-producto="Producto 5" data-precio="250">Agregar al Carrito</button>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="producto">
+            <h2>Café</h2>
+            <p>Precio: $150</p>
+            <label for="cantidadProducto6">Cantidad:</label>
+            <input type="number" id="cantidadProducto6" min="1" value="1">
+            <button class="agregar" data-producto="Producto 6" data-precio="150">Agregar al Carrito</button>
+        </div>
+
+    </div>
+
+    <button id="verCarrito">Ver Carrito</button>
+
+    <!-- Ventana modal del carrito -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <div id="carrito">
+                <!-- Aquí se mostrarán los productos agregados al carrito -->
+            </div>
+            <p>Total: $<span id="totalCarrito">0</span></p>
+            <button id="vaciarCarrito">Vaciar Carrito</button>
+            <button id="comprar">Comprar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Las mejores bebidas de la zona. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Archivo SweetAlert2 (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Archivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

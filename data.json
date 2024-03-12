@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Pepsi",
+        "precio": 450,
+        "id": "cantidadProducto1"
+    },
+    {
+        "nombre": "Agua",
+        "precio": 350,
+        "id": "cantidadProducto2"
+    },
+    {
+        "nombre": "Chocolate",
+        "precio": 500,
+        "id": "cantidadProducto3"
+    },
+    {
+        "nombre": "Galletas",
+        "precio": 300,
+        "id": "cantidadProducto4"
+    },
+    {
+        "nombre": "Jugo",
+        "precio": 250,
+        "id": "cantidadProducto5"
+    },
+    {
+        "nombre": "Café",
+        "precio": 150,
+        "id": "cantidadProducto6"
+    }
+]
